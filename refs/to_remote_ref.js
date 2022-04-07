@@ -1,0 +1,1 @@
+export const toRemoteRef = (remote, name) => "refs/remotes/" + remote + "/" + name;

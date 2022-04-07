@@ -1,0 +1,1 @@
+export const unique = arr => arr.reduce((a, p) => a.indexOf(p) === -1 ? a.concat(p) : a, []);

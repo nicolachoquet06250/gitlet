@@ -1,0 +1,1 @@
+export const toLocalRef = name => "refs/heads/" + name;

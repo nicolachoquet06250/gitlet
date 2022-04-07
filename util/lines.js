@@ -1,0 +1,1 @@
+export const lines = str => str.split("\n").filter(function(l) { return l !== ""; });

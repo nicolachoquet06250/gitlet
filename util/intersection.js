@@ -1,0 +1,1 @@
+export const intersection = (a, b) => a.filter(e => b.indexOf(e) !== -1);

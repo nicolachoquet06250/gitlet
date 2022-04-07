@@ -1,0 +1,1 @@
+export const type = str => ({ commit: 'commit', tree: 'tree', blob: 'tree' }[str.split(' ')[0]] || 'blob');

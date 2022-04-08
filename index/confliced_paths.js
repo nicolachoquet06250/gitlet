@@ -1,4 +1,4 @@
-import {keyPieces, read} from "./index";
+import {keyPieces, read} from "./index.js";
 
 export const conflictedPaths = () => {
     const idx = read();

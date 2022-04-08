@@ -1,5 +1,5 @@
-import * as util from '../util';
-import * as objects from '../objects';
+import * as util from '../util/index.js';
+import * as objects from '../objects/index.js';
 
 export const writeTree = tree => {
     const treeObject = Object.keys(tree).map(key => {

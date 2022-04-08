@@ -1,6 +1,6 @@
-import { update_ref } from './update_ref';
-import * as refs from '../refs';
-import * as files from '../files';
+import { update_ref } from './index.js';
+import * as refs from '../refs/index.js';
+import * as files from '../files/index.js';
 
 export const branch = (name, options = {}) => {
     files.assertInRepo();

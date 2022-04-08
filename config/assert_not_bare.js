@@ -1,4 +1,4 @@
-import {isBare} from './index';
+import {isBare} from './index.js';
 
 export const assertNotBare = () => {
     if (isBare()) {

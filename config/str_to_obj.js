@@ -1,4 +1,4 @@
-import * as util from '../util';
+import * as util from '../util/index.js';
 
 export const strToObj = str => str.split("[")
     .map(item => item.trim())

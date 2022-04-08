@@ -1,6 +1,6 @@
-import {tocDiff} from './index';
-import * as index from "../index";
-import * as objects from '../objects';
+import {tocDiff} from './index.js';
+import * as index from "../index/index.js";
+import * as objects from '../objects/index.js';
 
 export const diff = (hash1, hash2) => {
     const a = hash1 === undefined ? index.toc() : objects.commitToc(hash1);

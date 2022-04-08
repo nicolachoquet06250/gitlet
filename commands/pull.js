@@ -1,6 +1,6 @@
-import { fetch, merge } from './index';
-import * as config from '../config';
-import * as files from '../files';
+import { fetch, merge } from './index.js';
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
 
 export const pull = (remote, branch, _) => {
     files.assertInRepo();

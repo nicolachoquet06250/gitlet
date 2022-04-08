@@ -1,4 +1,4 @@
-import {type} from "./index";
+import {type} from "./index.js";
 
 export const treeHash = str => {
     if (type(str) === 'commit') {

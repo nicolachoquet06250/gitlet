@@ -1,5 +1,5 @@
-import {FILE_STATUS} from "../diff";
-import * as merge from '../merge';
+import {FILE_STATUS} from "../diff/index.js";
+import * as merge from '../merge/index.js';
 
 export const hasConflicts = (receiverHash, giverHash) => {
     const mergeDiff = merge.mergeDiff(receiverHash, giverHash);

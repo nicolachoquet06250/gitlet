@@ -1,5 +1,3 @@
-import {setIn} from './index';
-
 export const setIn = (obj, arr) => {
     if (arr.length === 2) {
         obj[arr[0]] = arr[1];

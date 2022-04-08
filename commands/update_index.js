@@ -1,7 +1,7 @@
 import fs from 'fs';
-import * as config from '../config';
-import * as files from '../files';
-import * as index from '../index';
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
+import * as index from '../index/index.js';
 
 export const update_index = (path, options = {}) => {
     files.assertInRepo();

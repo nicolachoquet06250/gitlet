@@ -1,6 +1,6 @@
-import * as refs from '../refs';
-import {nameStatus, diff} from "./index";
-import * as util from '../util';
+import * as refs from '../refs/index.js';
+import {nameStatus, diff} from "./index.js";
+import * as util from '../util/index.js';
 
 export const changedFilesCommitWouldOverwrite = hash => {
     const headHash = refs.hash('HEAD');

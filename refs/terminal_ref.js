@@ -1,5 +1,5 @@
-import { isRef, toLocalRef, isHeadDetached } from './index';
-import * as files from '../files';
+import { isRef, toLocalRef, isHeadDetached } from './index.js';
+import * as files from '../files/index.js';
 
 export const terminalRef = ref => {
     if (ref === 'HEAD' && !isHeadDetached()) {

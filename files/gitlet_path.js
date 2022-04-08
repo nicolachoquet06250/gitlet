@@ -1,6 +1,6 @@
 import fs from 'fs';
 import nodePath from 'path';
-import {read} from './index';
+import {read} from './index.js';
 
 function gitletDir(dir) {
     if (fs.existsSync(dir)) {

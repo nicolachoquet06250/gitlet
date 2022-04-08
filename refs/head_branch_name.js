@@ -1,5 +1,5 @@
-import {isHeadDetached} from "./index";
-import * as files from '../files';
+import {isHeadDetached} from "./index.js";
+import * as files from '../files/index.js';
 
 export const headBranchName = () => {
     if (isHeadDetached()) {

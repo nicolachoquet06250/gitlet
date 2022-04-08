@@ -1,6 +1,6 @@
-import * as objects from '../objects';
-import * as files from '../files';
-import * as index from '../index';
+import * as objects from '../objects/index.js';
+import * as files from '../files/index.js';
+import * as index from '../index/index.js';
 
 export const write_tree = () => {
     files.assertInRepo();

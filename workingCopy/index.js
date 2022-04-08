@@ -1,7 +1,7 @@
 import fs from 'fs';
-import * as objects from '../objects';
-import * as files from '../files';
-import * as diff from '../diff';
+import * as objects from '../objects/index.js';
+import * as files from '../files/index.js';
+import * as diff from '../diff/index.js';
 
 function composeConflict(receiverFileHash, giverFileHash) {
     return "<<<<<<\n" + objects.read(receiverFileHash) +

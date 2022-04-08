@@ -1,4 +1,4 @@
-import {key, read, write} from "./index";
+import {key, read, write} from "./index.js";
 
 export const writeRm = path => {
     const idx = read();

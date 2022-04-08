@@ -1,6 +1,5 @@
 import path from 'path';
-import * as util from '../util';
-import {flattenNestedTree} from './index';
+import * as util from '../util/index.js';
 
 export const flattenNestedTree = (tree, obj, prefix) => {
     if (obj === undefined) return flattenNestedTree(tree, {}, "");

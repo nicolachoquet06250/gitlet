@@ -1,0 +1,20 @@
+{
+  "name": "gilet",
+  "version": "1.0.0",
+  "description": "create a git clone in javascript",
+  "main": "gitlet.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolachoquet06250/gitlet.git"
+  },
+  "author": "Nicolas Choquet <nicolachoquet06250@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolachoquet06250/gitlet/issues"
+  },
+  "homepage": "https://github.com/nicolachoquet06250/gitlet#readme"
+}

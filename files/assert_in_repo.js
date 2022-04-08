@@ -1,4 +1,4 @@
-import {inRepo} from './index';
+import {inRepo} from './index.js';
 
 export const assertInRepo = () => {
     if (!inRepo()) {

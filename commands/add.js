@@ -1,6 +1,6 @@
-import { update_index } from './update_index';
-import * as config from '../config';
-import * as files from '../files';
+import { update_index } from './index.js';
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
 
 export const add = (path, _) => {
     files.assertInRepo();

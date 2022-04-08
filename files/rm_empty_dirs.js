@@ -1,6 +1,5 @@
 import nodePath from 'path';
 import fs from 'fs';
-import {rmEmptyDirs} from './';
 
 export const rmEmptyDirs = path => {
     if (fs.statSync(path).isDirectory()) {

@@ -1,5 +1,5 @@
-import {FILE_STATUS} from "./index";
-import * as util from '../util';
+import {FILE_STATUS} from "./index.js";
+import * as util from '../util/index.js';
 
 export const nameStatus = diff => Object.keys(diff)
     .filter(p => diff[p].status !== FILE_STATUS.SAME)

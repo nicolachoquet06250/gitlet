@@ -1,6 +1,6 @@
-import * as diff from '../diff';
-import * as objects from '../objects';
-import { commonAncestor } from './index';
+import * as diff from '../diff/index.js';
+import * as objects from '../objects/index.js';
+import { commonAncestor } from './index.js';
 
 export const mergeDiff = (receiverHash, giverHash) => diff.tocDiff(
     objects.commitToc(receiverHash),

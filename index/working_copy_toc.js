@@ -1,7 +1,7 @@
 import fs from 'fs';
-import {read} from "./index";
-import * as util from '../util';
-import * as files from '../files';
+import {read} from "./index.js";
+import * as util from '../util/index.js';
+import * as files from '../files/index.js';
 
 export const workingCopyToc = () => Object.keys(read())
     .map(k => k.split(',')[0])

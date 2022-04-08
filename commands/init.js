@@ -1,5 +1,5 @@
-import * as config from '../config';
-import * as files from '../files';
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
 
 export const init = (options = {}) => {
     if (files.inRepo()) return;
@@ -14,6 +14,5 @@ export const init = (options = {}) => {
         }
     };
 
-    files.writeFilesFromTree(options.bare ? gitletStructure: { ".gitlet": gitletStructure });
-    process.cwd();
+    files.writeFilesFromTree((options.bare ? gitletStructure: { ".gitlet": gitletStructure }), process.cwd());
 };

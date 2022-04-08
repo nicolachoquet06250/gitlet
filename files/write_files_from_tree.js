@@ -1,7 +1,6 @@
 import fs from 'fs';
 import nodePath from 'path';
-import * as util from '../util';
-import {writeFilesFromTree} from './index';
+import * as util from '../util/index.js';
 
 export const writeFilesFromTree = (tree, prefix) => {
     Object.keys(tree).forEach(name => {

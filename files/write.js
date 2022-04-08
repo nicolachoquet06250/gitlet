@@ -1,7 +1,7 @@
 import os from 'os';
 import nodePath from 'path';
-import * as util from '../util';
-import {writeFilesFromTree} from './index';
+import * as util from '../util/index.js';
+import {writeFilesFromTree} from './index.js';
 
 export const write = (path, content) => {
     const prefix = os.platform() === "win32" ? "." : "/";

@@ -1,5 +1,5 @@
-import * as objects from '../objects';
-import * as util from '../util';
+import * as objects from '../objects/index.js';
+import * as util from '../util/index.js';
 
 export const commonAncestor = (aHash, bHash) => {
     [aHash, bHash] = [aHash, bHash].sort();

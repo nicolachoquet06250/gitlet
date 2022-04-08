@@ -1,10 +1,10 @@
-import { commit } from './index';
-import * as refs from '../refs';
-import * as objects from '../objects';
-import * as diff from '../diff';
-import * as _merge from '../merge';
-import * as config from '../config';
-import * as files from '../files';
+import { commit } from './index.js';
+import * as refs from '../refs/index.js';
+import * as objects from '../objects/index.js';
+import * as diff from '../diff/index.js';
+import * as _merge from '../merge/index.js';
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
 
 export const merge = (ref, _) => {
     files.assertInRepo();

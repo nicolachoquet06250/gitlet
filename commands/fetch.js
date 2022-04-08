@@ -1,10 +1,10 @@
-import { update_ref } from '../commands';
-import * as refs from '../refs';
-import * as objects from '../objects';
-import * as merge from '../merge';
-import * as config from '../config';
-import * as util from '../util';
-import * as files from '../files';
+import { update_ref } from '../commands/index.js';
+import * as refs from '../refs/index.js';
+import * as objects from '../objects/index.js';
+import * as merge from '../merge/index.js';
+import * as config from '../config/index.js';
+import * as util from '../util/index.js';
+import * as files from '../files/index.js';
 
 export const fetch = (remote, branch, _) => {
     files.assertInRepo();

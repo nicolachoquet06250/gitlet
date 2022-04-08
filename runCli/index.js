@@ -1,4 +1,5 @@
-import * as gitlet from '../commands';
+import * as gitlet from '../commands/index.js';
+import {parseOptions} from "../parseOptions/index.js";
 
 export const runCli = argv => {
     const opts = parseOptions(argv);

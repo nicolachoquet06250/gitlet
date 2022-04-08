@@ -1,7 +1,7 @@
-import {hash, isRef, terminalRef, write} from '../refs';
-import * as objects from "../objects";
-import * as files from '../files';
-import * as refs from '../refs';
+import {hash, isRef, terminalRef, write} from '../refs/index.js';
+import * as objects from "../objects/index.js";
+import * as files from '../files/index.js';
+import * as refs from '../refs/index.js';
 
 export const update_ref = (refToUpdate, refToUpdateTo, _) => {
     files.assertInRepo();

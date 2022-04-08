@@ -1,10 +1,10 @@
 import fs from 'fs';
-import * as index from '../index';
-import * as files from '../files';
-import * as objects from '../objects';
-import * as diff from '../diff';
-import * as refs from '../refs';
-import * as util from '../util';
+import * as index from '../index/index.js';
+import * as files from '../files/index.js';
+import * as objects from '../objects/index.js';
+import * as diff from '../diff/index.js';
+import * as refs from '../refs/index.js';
+import * as util from '../util/index.js';
 
 const untracked = () => fs.readdirSync(files.workingCopyPath())
     .filter(p => index.toc()[p] === undefined && p !== ".gitlet");

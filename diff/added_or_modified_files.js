@@ -1,7 +1,7 @@
-import {FILE_STATUS, nameStatus, tocDiff} from "./index";
-import * as refs from '../refs';
-import * as objects from '../objects';
-import * as index from '../index';
+import {FILE_STATUS, nameStatus, tocDiff} from "./index.js";
+import * as refs from '../refs/index.js';
+import * as objects from '../objects/index.js';
+import * as index from '../index/index.js';
 
 export const addedOrModifiedFiles = () => {
     const headToc = refs.hash('HEAD') ? objects.commitToc(refs.hash('HEAD')) : {};

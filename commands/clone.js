@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { init, remote, fetch } from './index';
-import * as refs from '../refs';
-import * as merge from '../merge';
-import * as util from '../util';
-import * as files from '../files';
+import { init, remote, fetch } from './index.js';
+import * as refs from '../refs/index.js';
+import * as merge from '../merge/index.js';
+import * as util from '../util/index.js';
+import * as files from '../files/index.js';
 
 export const clone = (remotePath, targetPath, options = {}) => {
     if (remotePath === undefined || targetPath === undefined) {

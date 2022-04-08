@@ -1,5 +1,5 @@
-import {FILE_STATUS} from "./index";
-import * as util from '../util';
+import {FILE_STATUS} from "./index.js";
+import * as util from '../util/index.js';
 
 function fileStatus(receiver, giver, base) {
     const receiverPresent = receiver !== undefined;

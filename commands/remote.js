@@ -1,7 +1,7 @@
 import path from 'path';
-import * as config from '../config';
-import * as util from '../util';
-import * as files from '../files';
+import * as config from '../config/index.js';
+import * as util from '../util/index.js';
+import * as files from '../files/index.js';
 
 export const remote = (command, name, _) => {
     files.assertInRepo();

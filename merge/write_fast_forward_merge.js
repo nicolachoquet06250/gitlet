@@ -1,9 +1,9 @@
-import * as refs from '../refs';
-import * as index from '../index';
-import * as diff from '../diff';
-import * as objects from '../objects';
-import * as workingCopy from "../workingCopy";
-import * as config from '../config';
+import * as refs from '../refs/index.js';
+import * as index from '../index/index.js';
+import * as diff from '../diff/index.js';
+import * as objects from '../objects/index.js';
+import * as workingCopy from "../workingCopy/index.js";
+import * as config from '../config/index.js';
 
 export const writeFastForwardMerge = (receiverHash, giverHash) => {
     refs.write(refs.toLocalRef(refs.headBranchName()), giverHash);

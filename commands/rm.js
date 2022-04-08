@@ -1,10 +1,10 @@
 import fs from 'fs';
-import { update_index } from './index';
-import * as config from '../config';
-import * as util from '../util';
-import * as files from '../files';
-import * as index from '../index';
-import * as diff from '../diff';
+import { update_index } from './index.js';
+import * as config from '../config/index.js';
+import * as util from '../util/index.js';
+import * as files from '../files/index.js';
+import * as index from '../index/index.js';
+import * as diff from '../diff/index.js';
 
 export const rm = (path, options = {}) => {
     files.assertInRepo();

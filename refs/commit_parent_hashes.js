@@ -1,5 +1,5 @@
-import {hash} from "./index";
-import * as merge from '../merge';
+import {hash} from "./index.js";
+import * as merge from '../merge/index.js';
 
 export const commitParentHashes = () => {
     const headHash = hash('HEAD');

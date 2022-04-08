@@ -1,11 +1,11 @@
 import fs from 'fs';
-import { update_ref, write_tree } from './index';
-import * as refs from '../refs';
-import * as merge from '../merge';
-import * as config from '../config';
-import * as files from '../files';
-import * as index from '../index';
-import * as objects from '../objects';
+import { update_ref, write_tree } from './index.js';
+import * as refs from '../refs/index.js';
+import * as merge from '../merge/index.js';
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
+import * as index from '../index/index.js';
+import * as objects from '../objects/index.js';
 
 export const commit = (options = {}) => {
     files.assertInRepo();

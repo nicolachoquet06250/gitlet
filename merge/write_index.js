@@ -1,7 +1,7 @@
-import * as index from '../index';
-import * as objects from '../objects';
-import {FILE_STATUS} from "../diff";
-import {mergeDiff} from "./index";
+import * as index from '../index/index.js';
+import * as objects from '../objects/index.js';
+import {FILE_STATUS} from "../diff/index.js";
+import {mergeDiff} from "./index.js";
 
 export const writeIndex = (receiverHash, giverHash) => {
     const mergeDiff = mergeDiff(receiverHash, giverHash);

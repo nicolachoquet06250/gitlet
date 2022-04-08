@@ -1,4 +1,4 @@
-import {_writeStageEntry} from "./index";
+import {_writeStageEntry} from "./index.js";
 
 export const writeConflict = (path, receiverContent, giverContent, baseContent) => {
     if (baseContent !== undefined) {

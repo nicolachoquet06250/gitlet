@@ -1,6 +1,5 @@
 import nodePath from 'path';
 import fs from 'fs';
-import {lsRecursive} from './index';
 
 export const lsRecursive = path => {
     if (!fs.existsSync(path)) {

@@ -1,7 +1,7 @@
-import {FILE_STATUS} from "../diff";
-import * as refs from '../refs';
-import * as files from '../files';
-import {mergeDiff} from './index';
+import {FILE_STATUS} from "../diff/index.js";
+import * as refs from '../refs/index.js';
+import * as files from '../files/index.js';
+import {mergeDiff} from './index.js';
 
 export const writeMergeMsg = (receiverHash, giverHash, ref) => {
     let msg = "Merge " + ref + " into " + refs.headBranchName();

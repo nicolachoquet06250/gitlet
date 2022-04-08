@@ -1,4 +1,4 @@
-import { writeRm, _writeStageEntry } from './index';
+import { writeRm, _writeStageEntry } from './index.js';
 
 export const writeNonConflict = (path, content) => {
     writeRm(path);

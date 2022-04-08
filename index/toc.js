@@ -1,5 +1,5 @@
-import {read} from "./index";
-import * as util from '../util';
+import {read} from "./index.js";
+import * as util from '../util/index.js';
 
 export const toc = () => {
     const idx = read();

@@ -1,7 +1,7 @@
 import fs from 'fs';
-import {key} from './index';
-import * as util from '../util';
-import * as files from '../files';
+import {key} from './index.js';
+import * as util from '../util/index.js';
+import * as files from '../files/index.js';
 
 export const read = () => {
     const indexFilePath = files.gitletPath('index');

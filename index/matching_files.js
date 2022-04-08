@@ -1,5 +1,5 @@
-import {toc} from "./index";
-import * as files from '../files';
+import {toc} from "./index.js";
+import * as files from '../files/index.js';
 
 export const matchingFiles = pathSpec => {
     const searchPath = files.pathFromRepoRoot(pathSpec);

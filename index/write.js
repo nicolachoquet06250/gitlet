@@ -1,4 +1,4 @@
-import * as files from '../files';
+import * as files from '../files/index.js';
 
 export const write = index => {
     const indexStr = Object.keys(index)

@@ -1,13 +1,2 @@
-#!/usr/bin/node env
-
-import {runCli} from "./runCli";
-
-try {
-    const result = runCli(process.argv);
-    if (result !== undefined) {
-        console.log(result);
-    }
-} catch (e) {
-    console.error(e.toString());
-}
-
+#!/bin/bash
+node gitlet.js "$@"

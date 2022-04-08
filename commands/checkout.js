@@ -1,8 +1,8 @@
-import * as refs from '../refs';
-import * as objects from "../objects";
-import * as workingCopy from "../workingCopy";
-import * as config from '../config';
-import * as files from '../files';
+import * as refs from '../refs/index.js';
+import * as objects from "../objects/index.js";
+import * as workingCopy from "../workingCopy/index.js";
+import * as config from '../config/index.js';
+import * as files from '../files/index.js';
 
 export const checkout = (ref, _) => {
     files.assertInRepo();

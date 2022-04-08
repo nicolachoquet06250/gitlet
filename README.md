@@ -9,7 +9,7 @@ git clone https://github.com/nicolachoquet06250/gitlet.git
 export PATH="<dir-location>:$PATH"
 ## Pour windows, ajouter le répertoire du projet à votre PATH 
 ## dans les variables d'environnement du système
-gitlet.js init
+gitlet init
 ```
 
 ### Tutoriel

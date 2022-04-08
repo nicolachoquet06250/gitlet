@@ -13,4 +13,4 @@ gitlet.js init
 ```
 
 ### Tutoriel
-[http://gitlet.maryrosecook.com/docs/gitlet.html](http://gitlet.maryrosecook.com/docs/gitlet.html])
+[http://gitlet.maryrosecook.com/docs/gitlet.html](http://gitlet.maryrosecook.com/docs/gitlet.html)
